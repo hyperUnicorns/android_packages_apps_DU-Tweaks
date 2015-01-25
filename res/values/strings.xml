@@ -40,6 +40,7 @@
     <string name="breathing_notifications_category">Breathing Notifications</string>
     <string name="omniswitch_category">OmniSwitch</string>
     <string name="carrier_label_category">Carrier label</string>
+    <string name="category_heads_up">Heads Up</string>
 
     <!-- Immersive Recents -->
     <string name="immersive_recents_title">Immersive Recents</string>
@@ -561,4 +562,11 @@
     <string name="wakelock_blocker_reload">Reload</string>
     <string name="wakelock_blocker_warning_title">Proceed with caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
+    <!-- Heads Up -->
+    <string name="heads_up_notifications">Heads Up</string>
+    <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable peeking notifications.</string>
+
 </resources>
