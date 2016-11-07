@@ -16,6 +16,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misctweaks_category" >
+    
+	<PreferenceScreen
+             android:key="wakelock_blocker"
+             android:fragment="com.dirtyunicorns.dutweaks.fragments.WakeLockBlocker"
+             android:title="@string/wakelock_blocker_title" />
 
         <com.dirtyunicorns.dutweaks.preference.SystemSettingSwitchPreference
             android:key="flashlight_notification"
