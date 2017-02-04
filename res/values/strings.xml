@@ -597,4 +597,18 @@
     <string name="hide_lockscreen_bottom_shortcuts_summary_on">Bottom shortcuts showing on the keyguard</string>
     <string name="hide_lockscreen_bottom_shortcuts_summary_off">Bottom shortcuts hidden on the keyguard</string>
 
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Buttons backlight timeout</string>
+    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_default">5 sec (default)</string>
+    <string name="backlight_timeout_10s">10 sec</string>
+    <string name="backlight_timeout_15s">15 sec</string>
+    <string name="backlight_timeout_20s">20 sec</string>
+    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="button_brightness_title">Backlight</string>
+
+    <!-- Keyguard Statusbar Clock -->
+    <string name="keyguard_statusbar_clock_title">Keyguard statusbar clock</string>
+    <string name="keyguard_statusbar_clock_summary">Show the left statusbar clock on the keyguard</string>
+
 </resources>
