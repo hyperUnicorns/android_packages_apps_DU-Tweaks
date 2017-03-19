@@ -42,7 +42,11 @@ public class System extends SettingsPreferenceFragment implements
     private static final String KEY_MOTOACTIONS = "motoactions";
     private static final String KEY_MOTO_ACTIONS_PACKAGE_NAME = "com.dirtyunicorns.settings.device";
 
+    private static final String KEY_ONEPLUS_GESTURES = "oneplus_gestures";
+    private static final String KEY_ONEPLUS_GESTURES_PACKAGE_NAME = "com.cyanogenmod.settings.device";
+
     private PreferenceScreen mMotoActions;
+    private PreferenceScreen mOneplusGestures;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +60,11 @@ public class System extends SettingsPreferenceFragment implements
         mMotoActions = (PreferenceScreen) findPreference(KEY_MOTOACTIONS);
         if (!DuUtils.isPackageInstalled(getActivity(), KEY_MOTO_ACTIONS_PACKAGE_NAME)) {
             prefSet.removePreference(mMotoActions);
+        }
+
+        mOneplusGestures = (PreferenceScreen) findPreference(KEY_ONEPLUS_GESTURES);
+        if (!DuUtils.isPackageInstalled(getActivity(), KEY_ONEPLUS_GESTURES_PACKAGE_NAME)) {
+            prefSet.removePreference(mOneplusGestures);
         }
     }
 
