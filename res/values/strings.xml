@@ -44,6 +44,7 @@
     <string name="lock_items_category">Lockscreen items</string>
     <string name="notif_ticker_category">Notification ticker</string>
     <string name="qs_omnijaws_category">Weather QS tile</string>
+    <string name="ticker_category">Ticker</string>
 
     <!-- OmniJaws -->
     <string name="weather_config_title">Weather settings</string>
